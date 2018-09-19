@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/studentlogin/studentlogin",
+    "pages/staff/staff",
+    "pages/stafflogin/stafflogin",
+    "pages/student/student"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "图书馆综合应用小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list":[{
+        "pagePath": "pages/index/index",
+        "text": "首页"
+    },
+      {
+      "pagePath":"pages/studentlogin/studentlogin",
+      "text":"学生"
+    },
+    {
+      "pagePath":"pages/stafflogin/stafflogin",
+      "text":"管理人员"
+    }]
+  },
+  "networkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  },
+  "debug": "ture"
+}
