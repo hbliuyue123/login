@@ -32,7 +32,10 @@ Page({
         title: '登录成功',
         icon: 'success',
         duration: 2000
-      })
-    }
+      }),
+      wx.redirectTo({
+        url: '../staff/staff'  //跳转页面的路径
+    })
+  }
   }
 })
