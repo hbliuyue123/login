@@ -14,17 +14,24 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar":{
+    "selectedColor": "#1A1364",
     "list":[{
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "iconPath":"pages/images/index.jpg",
+        "text": "首页",
+        "selectedIconPath":"pages/images/index.jpg"
     },
       {
       "pagePath":"pages/studentlogin/studentlogin",
-      "text":"学生"
+      "iconPath": "pages/images/student.jpg",
+      "text":"学生",
+      "selectedIconPath":"pages/images/student.jpg"
     },
     {
       "pagePath":"pages/stafflogin/stafflogin",
-      "text":"管理人员"
+      "iconPath": "pages/images/staff.jpg",
+      "text":"管理人员",
+      "selectedIconPath":"pages/images/staff.jpg"
     }]
   },
   "networkTimeout":{

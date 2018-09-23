@@ -1,7 +1,7 @@
 <view class="container"> 
  <view class="login-icon"> 
    <view>
-    <text class="login-text">学生端登陆</text>
+    <text class="login-text">学生登陆</text>
   </view> 
  </view> 
  <view class="login-from"> 

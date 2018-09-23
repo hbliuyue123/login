@@ -27,12 +27,17 @@ Page({
         duration: 2000
       })
     } else {
-      // 这里修改成跳转的页面 
+      //登陆后的页面
       wx.showToast({
         title: '登录成功',
         icon: 'success',
         duration: 2000
-      })
+      }),
+      wx.redirectTo({
+        url: '../student/student'  //跳转页面的路径
+       
+       })
+           
     }
   }
 })
